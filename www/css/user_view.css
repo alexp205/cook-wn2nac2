@@ -13,7 +13,7 @@
   margin: 3px
 }
 
-.form-button:active{
+.button:active{
   transform: translateY(1px);
 }
 
@@ -26,6 +26,16 @@
 
 #user-summary {
     background-color: #f0f0f0;
+}
+
+#info{
+    width: 100%;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.scroll{
+    align: center;
 }
 
 #facebook-sign-in

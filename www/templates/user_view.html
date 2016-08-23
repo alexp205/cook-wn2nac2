@@ -1,23 +1,29 @@
-<ion-view>
-  <ion-content>
+<ion-view align='center'>
+  <ion-content align='center'>
+     <div id="login">
+        <form id="user-form">
+          <div class="login-list">
+            <label class="item-input">
+              <span class="input-label"><b>User Name: </b></span>
+              <input name="UserName" type="text" placeholder="user name">
+            </label>
 
-    <!-- <form id="user-form">
-      <div class="login-list">
-        <label class="item-input">
-          <span class="input-label"><b>User ID: </b></span>
-          <input name="username" type="text" placeholder="123456789" onfocus="this.placeholder=''" onblur="this.placeholder='123456789'">
-        </label>
+            <label class="item-input">
+              <span class="input-label"><b>Email: </b></span>
+              <input name="Email" type="text" placeholder="email">
+            </label>
+          </div>
 
-        <label class="item-input">
-          <span class="input-label"><b>Password: </b></span>
-          <input name="password" type="text" placeholder="password" onfocus="this.placeholder=''" onblur="this.placeholder='password'">
-        </label>
-      </div>
+          <input class="button" type="submit" onclick="moreTempStuff()" value="Submit">
+        </form>
+    </div>
+    <div id="info" align='center' style="display:none" >
+    </div>
+    <div id="logout" style="display:none; padding:3px;" >
+        <button class="button" onclick='logOut()'>Log Out</button>
+    </div>
 
-      <input class="form-button" type="submit" onclick="moreTempStuff()" value="Submit">
-    </form> -->
-
-    <div id="user-view-container">
+    <!-- <div id="user-view-container">
 
         <div id="user-summary">
             <div class="row">
@@ -32,9 +38,7 @@
             Log in with Facebook
         </a>
 
-    </div>
-
-    <img src="img/snoop_diggity_dogg.gif" />
+    </div> -->
 
   </ion-content>
 
